@@ -7,7 +7,7 @@ app.set('view engine', 'ejs');
 
 //ROUTE(s)
 app.get('/', function (req, res) {
-    res.send('Hello world');
+    res.render('index');
 });
 
 //Server
